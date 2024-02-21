@@ -42,8 +42,8 @@ Before you can use ROS, you will need to initialize rosdep, which is a package m
 
 ```bash
 sudo apt install python3-rosdep
-sudo rosdep init
 rosdep update
+sudo rosdep init
 ```
 
 ## Step 6: Set up environment variables
