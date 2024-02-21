@@ -33,17 +33,6 @@ sudo apt update
 Install the full desktop version of ROS Noetic, including simulation tools and other dependencies.
 
 ```bash
-
-
-
-alias burger='export TURTLEBOT3_MODEL=burger'
-alias waffle='export TURTLEBOT3_MODEL=waffle'
-alias tb3fake='roslaunch turtlebot3_fake turtlebot3_fake.launch'
-alias tb3teleop='roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch'
-alias tb3='roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch'
-alias tb3maze='roslaunch turtlebot3_gazebo turtlebot3_world.launch'
-alias tb3house='roslaunch turtlebot3_gazebo turtlebot3_house.launch'
-
 sudo apt install ros-noetic-desktop-full
 ```
 
@@ -67,3 +56,12 @@ source ~/.bashrc
 ```
 
 Congratulations! You have successfully installed ROS Noetic on your Ubuntu 20.04 system and configured rosdep. You can now start using ROS for your robotics projects and experiments. Happy coding!
+
+
+alias burger='export TURTLEBOT3_MODEL=burger'
+alias waffle='export TURTLEBOT3_MODEL=waffle'
+alias tb3fake='roslaunch turtlebot3_fake turtlebot3_fake.launch'
+alias tb3teleop='roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch'
+alias tb3='roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch'
+alias tb3maze='roslaunch turtlebot3_gazebo turtlebot3_world.launch'
+alias tb3house='roslaunch turtlebot3_gazebo turtlebot3_house.launch'
