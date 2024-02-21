@@ -65,3 +65,7 @@ alias tb3teleop='roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch'
 alias tb3='roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch'
 alias tb3maze='roslaunch turtlebot3_gazebo turtlebot3_world.launch'
 alias tb3house='roslaunch turtlebot3_gazebo turtlebot3_house.launch'
+
+export TURTLEBOT3_MODEL=waffle
+export SVGA_VGPU10=0
+
