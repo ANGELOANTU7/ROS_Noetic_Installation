@@ -1,3 +1,5 @@
+Certainly! Here's the updated README with instructions on how to install rosdep:
+
 # ROS Noetic Installation Guide for Ubuntu 20.04
 
 This guide will walk you through the process of installing ROS Noetic on Ubuntu 20.04. ROS (Robot Operating System) is a flexible framework for writing robot software and is widely used in robotics research and development.
@@ -39,6 +41,7 @@ sudo apt install ros-noetic-desktop-full
 Before you can use ROS, you will need to initialize rosdep, which is a package manager for ROS dependencies.
 
 ```bash
+sudo apt install python3-rosdep
 sudo rosdep init
 rosdep update
 ```
@@ -52,4 +55,4 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Congratulations! You have successfully installed ROS Noetic on your Ubuntu 20.04 system. You can now start using ROS for your robotics projects and experiments. Happy coding!
+Congratulations! You have successfully installed ROS Noetic on your Ubuntu 20.04 system and configured rosdep. You can now start using ROS for your robotics projects and experiments. Happy coding!
